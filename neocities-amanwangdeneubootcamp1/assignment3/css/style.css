@@ -1,0 +1,235 @@
+/*BODY*/
+body,html {
+	overflow-x: hidden;
+}
+.body {
+	border-top:5px solid #e56038;
+	background:#ebe8de;
+	font-family: 'Poppins', sans-serif;
+	color:#333333;
+	/* min-width:320px; */
+	/* min-height:480px; */
+	margin-right: 0.5%;
+	margin-left: 0.5%;
+}
+/*NAVITION ELEMENTS*/
+.navigation_elements {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    background-color: #f1f1f1;
+
+}
+.navigation_element {
+	
+		float:left;
+	
+	}
+
+
+.navigation_link {
+    display: block;
+    color: #000;
+    padding: 0.500em 0.875em;
+    text-decoration: none;
+
+}
+
+/*HEADER TITLE*/
+.header_title h1 {
+	color: #e56038;
+}
+.header_title p {
+	color: #e56038;
+	padding-left: 30%;
+}
+/* Change the link color on hover */
+.navigation_link:hover {
+    background-color: #e56038;
+    color: white;
+}
+
+
+.welcome {
+	background-image:url("../images/bg.jpg");
+	height:30em;
+}
+
+.welcomemessage {
+	padding-top:3%;
+	text-align:center;
+	color:white;
+	font-weight:strong;
+	font-size:2.5em;
+}
+
+.welcomequote
+{
+	width:inherit;
+	height:30%;
+	background-color:#e56038;
+	position:relative;
+	font-family: 'Poppins', sans-serif;
+	color:#fff;
+	font-size:2em;
+	text-align:center;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+/*ABOUT ME */
+
+.container {
+	width:100%;
+	background-color:white;
+	padding-right: 2%;
+	padding-left: 2%;
+	display:inline-block;
+}
+
+.all_title {
+	width: 100%;
+	height: 20%;
+	background-color: #e56038;
+	color:white;
+}
+
+.container_article_section {
+	padding-top: 10%;
+}
+
+.container_profolio {
+	position:relative;
+}
+
+.container_profolio_image{
+	width: 100%;
+	height:100%;
+}
+	
+.portfolio_image{
+		width: 70%;
+        height:100%;
+		margin-left: 10%;
+	}
+.testimonials{
+    width: 100%;
+	background:white;
+}
+.testimonials dt{
+	font-size: large;
+    font-weight: bold;
+}
+
+.clear{
+	clear: both;
+}
+.services{
+	background:white;
+	
+}
+.services ul{
+	line-height:2.5em;
+}
+.contact{
+	background:white;
+}
+.contact_inner{
+	line-height:2.5em;
+}
+
+@media only screen and (min-width: 321px) {
+	.header_title h1 {
+		color: #e56038;
+		font-size: 3em;
+		text-align: center;
+	}
+	.header_title p {
+		color: #e56038;
+		font-size: 2em;
+		text-align:center;
+		padding:0;
+	}
+	.header_navigation {
+			background-color:#e56038;
+			height:10%;	
+	}
+	.navigation_elements {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	}
+
+	.navigation_element {
+		float: left;
+			width:10%;
+	}
+
+	.navigation_link {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 0.875em 1em;
+		text-decoration: none;
+	}
+
+	/* Change the link color to #111 (black) on hover */
+	.navigation_link:hover {
+		background-color: #111;
+	}	
+
+
+	.container_article {
+		width:60%;
+		float:right;
+		position:relative;
+	}
+
+	.container_article_section {
+		padding-top: 10%;
+		margin-left:10%;
+		margin-right:10%;
+	}
+
+	.container_profolio {
+		position:relative;
+		width:40%;
+	}
+	.container_profolio_image{
+    width: 70%;
+	height:100%;
+	}
+	.portfolio_image{
+		width: 70%;
+        height:100%;
+	}
+	.testimonials dl{
+	margin-left:10%;
+	}
+	.testimonials{
+    width: 100%;
+    background: white;
+    line-height: 2.5em
+	}
+	
+		.services{
+		background:white;
+		
+		}
+		.services ul{
+		margin-left:10%;
+		}
+		.contact{
+	    background:white;
+		}
+		.contact_inner{
+	    margin-left:10%;
+		}
+ 
+	
+
+}
+
